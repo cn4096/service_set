@@ -18,12 +18,10 @@
 
 ## 脚本安装
 
-手动下载安装
-```
-## 下载service.set到 /tmp/
-chmod +x service.set
-sudo mv service.set /usr/local/bin/service.set   # 可选：放到 PATH 里
-```
+ 下载`service.set`到系统，并设置执行权限
+
+`wget -O /usr/local/bin/service.set https://raw.githubusercontent.com/cn4096/service_set/main/service.set && chmod +x /usr/local/bin/service.set`
+
 
 ## 脚本使用
 
