@@ -20,7 +20,7 @@
 
 手动下载安装
 ```
-## 下载到 /tmp/
+## 下载service.set到 /tmp/
 chmod +x service.set
 sudo mv service.set /usr/local/bin/service.set   # 可选：放到 PATH 里
 ```
