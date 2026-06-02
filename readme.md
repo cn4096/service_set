@@ -12,9 +12,9 @@
    systemctl start xxx       # 启动
    ```
 
-`systemctl` 能做的操作只有：`start / stop / restart / enable / disable / status / reload` 等，全部都是针对**已存在**的服务。
+`systemctl` 能做的操作：`start / stop / restart / enable / disable / status / reload` 等，针对**已存在**的服务。
 
-所以 `service.set` 脚本做的事情是正确的——自动生成 `.service` 文件，再调用 `systemctl` 完成注册，这是标准做法。
+所以 `service.set` 脚本做的事情是自动生成 `.service` 文件，再调用 `systemctl` 完成注册。
 
 ## 脚本安装
 
