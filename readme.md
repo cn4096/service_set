@@ -33,6 +33,12 @@ curl下载：
 curl -o /usr/local/bin/service.set https://raw.githubusercontent.com/cn4096/service_set/main/service.set && chmod +x /usr/local/bin/service.set && echo "✅ 安装成功" || echo "❌ 安装失败"
 ```
 
+openwrt
+
+```
+wget -O /usr/bin/service.set https://raw.githubusercontent.com/cn4096/service_set/main/service.set && chmod +x /usr/bin/service.set && echo "✅ 安装成功" || echo "❌ 安装失败"
+```
+
 
 ## 脚本使用
 
